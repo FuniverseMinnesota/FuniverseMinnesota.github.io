@@ -1,0 +1,82 @@
+* {
+	color: white;
+}
+header {
+	font-family: "Kdam Thmor Pro", sans-serif;
+	background-image: linear-gradient(180deg, #0f1736, #22357a);
+    background-color: #22357a;
+	padding: 15px;
+	text-align: left;
+	text-shadow: 3px 3px Black;
+	font-size: 35px;
+	position: sticky;
+	top: 0;
+}
+body {
+	background-image: url("backgroundtile.png");
+	background-color: #2d2d30;
+	margin: 0px;
+}
+article.left {
+	float: left;
+	border: solid;
+	border-color: white;
+	border-width: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 7px 7px Black;
+}
+article.right {
+	float: right;
+	border: solid;
+	border-color: white;
+	border-width: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 7px 7px Black;
+}
+h1 {
+	font-family: "Bungee", sans-serif;
+	font-size: 40px;
+	text-shadow: 3px 3px Black;
+	margin: 16px;
+}
+p {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+	margin: 16px;
+}
+a {
+	color: lightblue;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+}
+footer {
+	font-family: "Kdam Thmor Pro", sans-serif;
+	background-image: linear-gradient(180deg, #22357a, #0f1736);
+    background-color: #22357a;
+	padding: 15px 0px;
+	text-align: left;
+	font-size: 15px;
+	width: 100%;
+	bottom: 0;
+}
+
+.topnav {
+	float: right;
+	overflow: hidden;
+}
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.topnav a:hover {
+  text-decoration: #5676d6 wavy underline;
+}
+.topnav a.active {
+  color: #5676d6;
+}
