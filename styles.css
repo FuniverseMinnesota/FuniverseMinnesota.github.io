@@ -60,11 +60,13 @@ p {
 p.phototitle {
 	font-weight: bold;
 	text-align: center;
+	font-size: 1.5vw;
+	margin: 1vw;
 }
 p.award {
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 15px;
-	margin: 10px;
+	font-size: 1vw;
+	margin: 1vw;
 	text-align: center;
 }
 a {
@@ -93,7 +95,12 @@ footer {
   padding: 10px;
   text-decoration: none;
   font-size: 1.75vw;
-  
+}
+@media screen and (max-width: 550px){
+	.topnav a {
+		font-size: 1.75vw;
+		padding: 1vw
+	}
 }
 .topnav a:hover {
   text-decoration: #5676d6 wavy underline;
