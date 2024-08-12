@@ -48,6 +48,11 @@ p {
 	font-size: 20px;
 	margin: 16px;
 }
+p.small {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 15px;
+	margin: 10px;
+}
 a {
 	color: lightblue;
 	font-family: "Josefin Sans", sans-serif;
