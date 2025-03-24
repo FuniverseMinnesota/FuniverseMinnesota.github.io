@@ -1,0 +1,66 @@
+:root{
+	--primary-color: #46679c;
+	--secondary-color: #7facf5;
+}
+
+* {
+  color: white;
+}
+
+header {
+	position: top;
+	background-image: linear-gradient(180deg, #0f1736, #22357a);
+    background-color: #22357a;
+	padding: 1px;
+}
+
+header .navbar {
+	list-style-type: none;
+}
+
+header .navbar  li{
+	display: inline-flex;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2vw;
+}
+
+body {
+	background-image: url("images/backgroundtile.png");
+	margin: 0;
+}
+
+.intro {
+	display: flex;
+}
+
+.portrait {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+img {width: 90%; height: auto; padding: 5%;}
+
+.intro-text {
+	flex: 1 1 auto;
+	width: 100%;
+	align-content: center;
+	text-align: left;
+	font-family: "Bungee", sans-serif;
+	text-shadow: 3px 3px Black;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	padding: 20px;
+	background-image: linear-gradient(180deg,#22357a, #0f1736, #22357a);
+}
+
+.box {
+  border-radius: 5px;
+  border: 3px solid white;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
